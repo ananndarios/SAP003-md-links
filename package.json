@@ -1,0 +1,17 @@
+{
+  "name": "mdlink",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma biblioteca usando Node Js e JavaScript",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anannda Rios",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^4.4.0"
+  }
+}
