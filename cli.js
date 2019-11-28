@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 const mdlinks = require('./lib/index.js');
-
-mdlinks(process.argv[2])
-.them((result) => {
+const path = process.argv[2]
+mdlinks(path)
+.then((result) => {
     console.log(result)
 })
 .catch(console.error);
