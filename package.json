@@ -7,11 +7,19 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "eslint": "eslint"
+  },
+  "bin": {
+    "mdlink": "cli.js"
   },
   "author": "Anannda Rios",
   "license": "ISC",
   "dependencies": {
+    "jest": "^24.9.0",
     "pkg": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1"
   }
 }
