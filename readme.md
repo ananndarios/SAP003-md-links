@@ -6,7 +6,11 @@
 
 ## Como instalar:
 
+```shell
+
 $ npm install -g ananndarios/SAP003-md-links
+
+```
 
 Para executar esta biblioteca você deverá ter o node e o npm instalados em seu computador.
 
