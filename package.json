@@ -14,7 +14,7 @@
     "mdlink": "cli.js"
   },
   "author": "Anannda Rios",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jest": "^24.9.0",
     "pkg": "^4.4.0"
